@@ -1,0 +1,15 @@
+pub mod attachments;
+pub mod budget;
+pub mod funding;
+pub mod idea;
+pub mod literature;
+pub mod methodology;
+pub mod outcomes;
+pub mod prelim_results;
+pub mod references;
+pub mod resources;
+pub mod scope;
+pub mod scripting;
+pub mod team;
+pub mod timeline;
+pub mod working_name;

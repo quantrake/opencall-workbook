@@ -1,0 +1,56 @@
+# Rust #
+###########
+/target
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+
+# .appveyor.yml
+# .cargo-ok
+# .travis.yml
+
+# Folders #
+###########
+# data
+# results*
+_*
+
+# Settings #
+# Config, params and settings files are excluded, as they refer to specific 
+# paths to files, which may differ from one computer to another
+###################
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+settings/*.yaml
+settings/*.yml
+
+# Compiled source #
+###################
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+.stignore
+.stfolder/
